@@ -1,7 +1,9 @@
 注意事项：
 1、Jsoncpp源码仓库地址：https://github.com/open-source-parsers/jsoncpp
+
 2、拉取源码master分支使用CMake编译：
 ->选择编译项目文件夹->选择生成目录（已存在的目录）->Configure->选择编译器->选择编译配置->Generate
+
 3、CMake编译时提示缺少Python，安装即可
 
 4、编译完成后会在生成目录生成.sln解决方案文件，打开解决方案并编译
