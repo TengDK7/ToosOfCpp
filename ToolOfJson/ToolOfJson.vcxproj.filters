@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{51fe431c-b179-4ee0-9c5b-48ad96c974db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JsonClass">
+      <UniqueIdentifier>{2621b76d-df20-40f3-8923-b3fc3da3bde4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ToolOfJson.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="JsonClass\Person.cpp">
+      <Filter>JsonClass</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Interface\IJson.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="JsonClass\Person.h">
+      <Filter>JsonClass</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
