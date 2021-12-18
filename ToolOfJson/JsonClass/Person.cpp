@@ -11,6 +11,7 @@ namespace JsonClass
 		m_phoneNum = phoneNum;
 		m_age = age;
 	}
+
 	std::string Person::Serialize() const
 	{
 		static Json::Value def = []() {
@@ -35,6 +36,7 @@ namespace JsonClass
 		writer->write(root, &stream);
 		return stream.str();
 	}
+
 	bool Person::Deserialize(const std::string& content)
 	{
 		if (content.empty())
